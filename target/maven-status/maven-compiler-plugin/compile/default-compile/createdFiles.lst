@@ -1,0 +1,14 @@
+core\ConfigReader.class
+pages\BasePage.class
+pages\GesturesPage.class
+pages\WindowOperationsPage.class
+pages\TablesPage.class
+pages\AdsPage.class
+pages\HoverPage.class
+pages\FormFieldsPage.class
+core\DriverManager.class
+pages\DelaysPage.class
+pages\PopupsPage.class
+pages\CalendarsPage.class
+pages\SliderPage.class
+pages\ModalsPage.class

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="37.269" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="surefire.suiteXmlFiles" value="C://Users//Nikson//Desktop//Projects//selenium//testng.xml"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Nikson\Desktop\Projects\selenium\target\test-classes;C:\Users\Nikson\Desktop\Projects\selenium\target\classes;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-java\4.32.0\selenium-java-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-api\4.32.0\selenium-api-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.32.0\selenium-chrome-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.32.0\selenium-chromium-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-json\4.32.0\selenium-json-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.32.0\selenium-manager-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.32.0\selenium-devtools-v134-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.32.0\selenium-devtools-v135-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.32.0\selenium-devtools-v136-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.32.0\selenium-edge-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.32.0\selenium-firefox-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-http\4.32.0\selenium-http-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.32.0\selenium-ie-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.32.0\selenium-remote-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Nikson\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Nikson\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Nikson\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Nikson\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.49.0\opentelemetry-exporter-logging-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.49.0\opentelemetry-sdk-extension-autoconfigure-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\Nikson\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-os\4.32.0\selenium-os-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.32.0\selenium-safari-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-support\4.32.0\selenium-support-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Nikson\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Nikson\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Nikson\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Nikson\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Tbilisi"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Nikson\AppData\Local\Temp\surefire7277039537034954001\surefirebooter-20250628195706771_3.jar C:\Users\Nikson\AppData\Local\Temp\surefire7277039537034954001 2025-06-28T19-57-06_664-jvmRun1 surefire-20250628195706771_1tmp surefire_0-20250628195706771_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Nikson\Desktop\Projects\selenium\target\test-classes;C:\Users\Nikson\Desktop\Projects\selenium\target\classes;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-java\4.32.0\selenium-java-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-api\4.32.0\selenium-api-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.32.0\selenium-chrome-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.32.0\selenium-chromium-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-json\4.32.0\selenium-json-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.32.0\selenium-manager-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.32.0\selenium-devtools-v134-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.32.0\selenium-devtools-v135-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.32.0\selenium-devtools-v136-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.32.0\selenium-edge-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.32.0\selenium-firefox-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-http\4.32.0\selenium-http-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.32.0\selenium-ie-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.32.0\selenium-remote-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Nikson\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Nikson\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Nikson\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Nikson\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.49.0\opentelemetry-exporter-logging-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.49.0\opentelemetry-sdk-extension-autoconfigure-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\Nikson\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\Nikson\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-os\4.32.0\selenium-os-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.32.0\selenium-safari-driver-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\seleniumhq\selenium\selenium-support\4.32.0\selenium-support-4.32.0.jar;C:\Users\Nikson\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Nikson\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Nikson\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Nikson\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Nikson\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Nikson"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Nikson\Desktop\Projects\selenium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="name" value="value"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nikson\AppData\Local\Temp\surefire7277039537034954001\surefirebooter-20250628195706771_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="Nikson"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Nikson\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Nikson\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\Nikson\Desktop\Projects\selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Maven\bin;C:\Program Files\Git\cmd;C:\Users\Nikson\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Nikson\AppData\Local\Programs\Python\Python313\;C:\Users\Nikson\AppData\Local\Programs\Python\Launcher\;C:\Users\Nikson\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\JetBrains Rider 2023.2.3\bin;;C:\Users\Nikson\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nikson\.dotnet\tools;C:\Program Files\JetBrains\PyCharm 2024.3.1.1\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.1.1\bin;;C:\Users\Nikson\AppData\Local\Muse Hub\lib;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="verifyHeaderText" classname="tests.DelaysTest" time="0.026">
+    <system-err><![CDATA[Jun 28, 2025 7:57:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 138
+]]></system-err>
+  </testcase>
+  <testcase name="testDelaysPage" classname="tests.DelaysTest" time="10.232"/>
+  <testcase name="verifyHeaderText" classname="tests.FormFieldsTest" time="0.014"/>
+  <testcase name="fillFields" classname="tests.FormFieldsTest" time="0.71"/>
+  <testcase name="acceptAlert" classname="tests.FormFieldsTest" time="0.011"/>
+  <testcase name="verifyHeaderText" classname="tests.PopupsTest" time="0.018"/>
+  <testcase name="testAlertPopup" classname="tests.PopupsTest" time="0.055"/>
+  <testcase name="testConfirmPopup" classname="tests.PopupsTest" time="0.154"/>
+  <testcase name="testPromptPopup" classname="tests.PopupsTest" time="0.15"/>
+  <testcase name="verifyHeaderText" classname="tests.SliderTest" time="0.013"/>
+  <testcase name="moveSliderBy101" classname="tests.SliderTest" time="0.023"/>
+  <testcase name="moveSliderBy50" classname="tests.SliderTest" time="0.018"/>
+  <testcase name="moveSliderByNegative1" classname="tests.SliderTest" time="0.019"/>
+  <testcase name="verifyHeaderText" classname="tests.CalendarsTest" time="0.03"/>
+  <testcase name="verifyDateSelection" classname="tests.CalendarsTest" time="0.024"/>
+  <testcase name="verifyHeaderText" classname="tests.ModalsTest" time="0.049"/>
+  <testcase name="verifySimpleModal" classname="tests.ModalsTest" time="0.694"/>
+  <testcase name="verifyFormModal" classname="tests.ModalsTest" time="0.692"/>
+  <testcase name="verifyHeaderText" classname="tests.TablesTest" time="0.012"/>
+  <testcase name="verifyItemsPrices" classname="tests.TablesTest" time="0.109"/>
+  <testcase name="verifyHeaderText" classname="tests.WindowOperationsTest" time="0.016"/>
+  <testcase name="verifyNewTabOpensAndCloses" classname="tests.WindowOperationsTest" time="1.445"/>
+  <testcase name="verifyWindowIsReplaced" classname="tests.WindowOperationsTest" time="0.527"/>
+  <testcase name="verifyNewWindowOpensAndCloses" classname="tests.WindowOperationsTest" time="0.556"/>
+  <testcase name="verifyHeaderText" classname="tests.HoverTest" time="0.013"/>
+  <testcase name="verifyHoverWorks" classname="tests.HoverTest" time="0.164"/>
+  <testcase name="verifyHeaderText" classname="tests.AdsTest" time="0.012"/>
+  <testcase name="verifyAd" classname="tests.AdsTest" time="4.817"/>
+  <testcase name="verifyHeaderText" classname="tests.GesturesTest" time="0.014"/>
+  <testcase name="performGesturesActions" classname="tests.GesturesTest" time="0.643"/>
+</testsuite>

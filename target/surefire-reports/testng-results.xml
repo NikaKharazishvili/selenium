@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-28T19:57:10 GET" name="UI Automation Suite" finished-at="2025-06-28T19:57:44 GET" duration-ms="33384">
+    <groups>
+    </groups>
+    <test started-at="2025-06-28T19:57:10 GET" name="Core Functional Tests" finished-at="2025-06-28T19:57:44 GET" duration-ms="33384">
+      <class name="tests.SliderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SliderTest@c8c12ac]" started-at="2025-06-28T19:57:24 GET" name="setUp" finished-at="2025-06-28T19:57:24 GET" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.SliderTest@c8c12ac]" started-at="2025-06-28T19:57:24 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:24 GET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="moveSliderBy101()[pri:2, instance:tests.SliderTest@c8c12ac]" started-at="2025-06-28T19:57:24 GET" name="moveSliderBy101" finished-at="2025-06-28T19:57:24 GET" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveSliderBy101 -->
+        <test-method signature="moveSliderBy50()[pri:3, instance:tests.SliderTest@c8c12ac]" started-at="2025-06-28T19:57:24 GET" name="moveSliderBy50" finished-at="2025-06-28T19:57:24 GET" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveSliderBy50 -->
+        <test-method signature="moveSliderByNegative1()[pri:4, instance:tests.SliderTest@c8c12ac]" started-at="2025-06-28T19:57:24 GET" name="moveSliderByNegative1" finished-at="2025-06-28T19:57:24 GET" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveSliderByNegative1 -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.SliderTest@c8c12ac]" started-at="2025-06-28T19:57:24 GET" name="goToHomePage" finished-at="2025-06-28T19:57:25 GET" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.SliderTest -->
+      <class name="tests.PopupsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PopupsTest@1623b78d]" started-at="2025-06-28T19:57:23 GET" name="setUp" finished-at="2025-06-28T19:57:23 GET" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.PopupsTest@1623b78d]" started-at="2025-06-28T19:57:23 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:23 GET" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="testAlertPopup()[pri:2, instance:tests.PopupsTest@1623b78d]" started-at="2025-06-28T19:57:23 GET" name="testAlertPopup" finished-at="2025-06-28T19:57:23 GET" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlertPopup -->
+        <test-method signature="testConfirmPopup()[pri:3, instance:tests.PopupsTest@1623b78d]" started-at="2025-06-28T19:57:23 GET" name="testConfirmPopup" finished-at="2025-06-28T19:57:23 GET" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmPopup -->
+        <test-method signature="testPromptPopup()[pri:4, instance:tests.PopupsTest@1623b78d]" started-at="2025-06-28T19:57:23 GET" name="testPromptPopup" finished-at="2025-06-28T19:57:23 GET" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromptPopup -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.PopupsTest@1623b78d]" started-at="2025-06-28T19:57:23 GET" name="goToHomePage" finished-at="2025-06-28T19:57:24 GET" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.PopupsTest -->
+      <class name="tests.TablesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TablesTest@4ec4f3a0]" started-at="2025-06-28T19:57:30 GET" name="setUp" finished-at="2025-06-28T19:57:31 GET" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.TablesTest@4ec4f3a0]" started-at="2025-06-28T19:57:31 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:31 GET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="verifyItemsPrices()[pri:2, instance:tests.TablesTest@4ec4f3a0]" started-at="2025-06-28T19:57:31 GET" name="verifyItemsPrices" finished-at="2025-06-28T19:57:31 GET" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsPrices -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.TablesTest@4ec4f3a0]" started-at="2025-06-28T19:57:31 GET" name="goToHomePage" finished-at="2025-06-28T19:57:31 GET" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.TablesTest -->
+      <class name="tests.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BaseTest@7e07db1f]" started-at="2025-06-28T19:57:07 GET" name="setUp" finished-at="2025-06-28T19:57:10 GET" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@7e07db1f]" started-at="2025-06-28T19:57:44 GET" name="tearDown" finished-at="2025-06-28T19:57:44 GET" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BaseTest -->
+      <class name="tests.AdsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AdsTest@9597028]" started-at="2025-06-28T19:57:35 GET" name="setUp" finished-at="2025-06-28T19:57:36 GET" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.AdsTest@9597028]" started-at="2025-06-28T19:57:36 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:36 GET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="verifyAd()[pri:2, instance:tests.AdsTest@9597028]" started-at="2025-06-28T19:57:36 GET" name="verifyAd" finished-at="2025-06-28T19:57:41 GET" duration-ms="4816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAd -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.AdsTest@9597028]" started-at="2025-06-28T19:57:41 GET" name="goToHomePage" finished-at="2025-06-28T19:57:42 GET" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.AdsTest -->
+      <class name="tests.CalendarsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CalendarsTest@6adbc9d]" started-at="2025-06-28T19:57:25 GET" name="setUp" finished-at="2025-06-28T19:57:25 GET" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.CalendarsTest@6adbc9d]" started-at="2025-06-28T19:57:25 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:25 GET" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="verifyDateSelection()[pri:2, instance:tests.CalendarsTest@6adbc9d]" started-at="2025-06-28T19:57:25 GET" name="verifyDateSelection" finished-at="2025-06-28T19:57:25 GET" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateSelection -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.CalendarsTest@6adbc9d]" started-at="2025-06-28T19:57:25 GET" name="goToHomePage" finished-at="2025-06-28T19:57:25 GET" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.CalendarsTest -->
+      <class name="tests.ModalsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ModalsTest@4550bb58]" started-at="2025-06-28T19:57:25 GET" name="setUp" finished-at="2025-06-28T19:57:26 GET" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.ModalsTest@4550bb58]" started-at="2025-06-28T19:57:26 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:26 GET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="verifySimpleModal()[pri:2, instance:tests.ModalsTest@4550bb58]" started-at="2025-06-28T19:57:26 GET" name="verifySimpleModal" finished-at="2025-06-28T19:57:27 GET" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySimpleModal -->
+        <test-method signature="verifyFormModal()[pri:3, instance:tests.ModalsTest@4550bb58]" started-at="2025-06-28T19:57:27 GET" name="verifyFormModal" finished-at="2025-06-28T19:57:27 GET" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormModal -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.ModalsTest@4550bb58]" started-at="2025-06-28T19:57:27 GET" name="goToHomePage" finished-at="2025-06-28T19:57:30 GET" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.ModalsTest -->
+      <class name="tests.GesturesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GesturesTest@6069db50]" started-at="2025-06-28T19:57:42 GET" name="setUp" finished-at="2025-06-28T19:57:43 GET" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.GesturesTest@6069db50]" started-at="2025-06-28T19:57:43 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:43 GET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="performGesturesActions()[pri:2, instance:tests.GesturesTest@6069db50]" started-at="2025-06-28T19:57:43 GET" name="performGesturesActions" finished-at="2025-06-28T19:57:43 GET" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performGesturesActions -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.GesturesTest@6069db50]" started-at="2025-06-28T19:57:43 GET" name="goToHomePage" finished-at="2025-06-28T19:57:44 GET" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.GesturesTest -->
+      <class name="tests.DelaysTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DelaysTest@7f0eb4b4]" started-at="2025-06-28T19:57:10 GET" name="setUp" finished-at="2025-06-28T19:57:11 GET" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.DelaysTest@7f0eb4b4]" started-at="2025-06-28T19:57:11 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:11 GET" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="testDelaysPage()[pri:2, instance:tests.DelaysTest@7f0eb4b4]" started-at="2025-06-28T19:57:11 GET" name="testDelaysPage" finished-at="2025-06-28T19:57:21 GET" duration-ms="10231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelaysPage -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.DelaysTest@7f0eb4b4]" started-at="2025-06-28T19:57:21 GET" name="goToHomePage" finished-at="2025-06-28T19:57:21 GET" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.DelaysTest -->
+      <class name="tests.WindowOperationsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WindowOperationsTest@223191a6]" started-at="2025-06-28T19:57:31 GET" name="setUp" finished-at="2025-06-28T19:57:32 GET" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.WindowOperationsTest@223191a6]" started-at="2025-06-28T19:57:32 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:32 GET" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="verifyNewTabOpensAndCloses()[pri:2, instance:tests.WindowOperationsTest@223191a6]" started-at="2025-06-28T19:57:32 GET" name="verifyNewTabOpensAndCloses" finished-at="2025-06-28T19:57:33 GET" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewTabOpensAndCloses -->
+        <test-method signature="verifyWindowIsReplaced()[pri:3, instance:tests.WindowOperationsTest@223191a6]" started-at="2025-06-28T19:57:33 GET" name="verifyWindowIsReplaced" finished-at="2025-06-28T19:57:34 GET" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWindowIsReplaced -->
+        <test-method signature="verifyNewWindowOpensAndCloses()[pri:4, instance:tests.WindowOperationsTest@223191a6]" started-at="2025-06-28T19:57:34 GET" name="verifyNewWindowOpensAndCloses" finished-at="2025-06-28T19:57:34 GET" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewWindowOpensAndCloses -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.WindowOperationsTest@223191a6]" started-at="2025-06-28T19:57:34 GET" name="goToHomePage" finished-at="2025-06-28T19:57:34 GET" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.WindowOperationsTest -->
+      <class name="tests.FormFieldsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormFieldsTest@5c33f1a9]" started-at="2025-06-28T19:57:21 GET" name="setUp" finished-at="2025-06-28T19:57:22 GET" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.FormFieldsTest@5c33f1a9]" started-at="2025-06-28T19:57:22 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:22 GET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="fillFields()[pri:2, instance:tests.FormFieldsTest@5c33f1a9]" started-at="2025-06-28T19:57:22 GET" name="fillFields" finished-at="2025-06-28T19:57:22 GET" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFields -->
+        <test-method signature="acceptAlert()[pri:3, instance:tests.FormFieldsTest@5c33f1a9]" started-at="2025-06-28T19:57:22 GET" name="acceptAlert" finished-at="2025-06-28T19:57:22 GET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptAlert -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.FormFieldsTest@5c33f1a9]" started-at="2025-06-28T19:57:22 GET" name="goToHomePage" finished-at="2025-06-28T19:57:23 GET" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.FormFieldsTest -->
+      <class name="tests.HoverTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HoverTest@49139829]" started-at="2025-06-28T19:57:34 GET" name="setUp" finished-at="2025-06-28T19:57:35 GET" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderText()[pri:1, instance:tests.HoverTest@49139829]" started-at="2025-06-28T19:57:35 GET" name="verifyHeaderText" finished-at="2025-06-28T19:57:35 GET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderText -->
+        <test-method signature="verifyHoverWorks()[pri:2, instance:tests.HoverTest@49139829]" started-at="2025-06-28T19:57:35 GET" name="verifyHoverWorks" finished-at="2025-06-28T19:57:35 GET" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHoverWorks -->
+        <test-method is-config="true" signature="goToHomePage()[pri:0, instance:tests.HoverTest@49139829]" started-at="2025-06-28T19:57:35 GET" name="goToHomePage" finished-at="2025-06-28T19:57:35 GET" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+      </class> <!-- tests.HoverTest -->
+    </test> <!-- Core Functional Tests -->
+  </suite> <!-- UI Automation Suite -->
+</testng-results>

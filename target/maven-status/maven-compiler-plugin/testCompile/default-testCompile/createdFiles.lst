@@ -1,0 +1,12 @@
+tests\ModalsTest.class
+tests\GesturesTest.class
+tests\PopupsTest.class
+tests\CalendarsTest.class
+tests\DelaysTest.class
+tests\TablesTest.class
+tests\BaseTest.class
+tests\SliderTest.class
+tests\AdsTest.class
+tests\WindowOperationsTest.class
+tests\FormFieldsTest.class
+tests\HoverTest.class

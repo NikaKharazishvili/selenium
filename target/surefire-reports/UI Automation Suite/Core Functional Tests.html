@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>TestNG:  Core Functional Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Core Functional Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 28 19:57:10 GET 2025</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33384 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.PopupsTest.testAlertPopup()'><b>testAlertPopup</b><br>Test class: tests.PopupsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.PopupsTest@1623b78d</td></tr>
+<tr>
+<td title='tests.FormFieldsTest.acceptAlert()'><b>acceptAlert</b><br>Test class: tests.FormFieldsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FormFieldsTest@5c33f1a9</td></tr>
+<tr>
+<td title='tests.DelaysTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.DelaysTest</td>
+<td></td>
+<td>0</td>
+<td>tests.DelaysTest@7f0eb4b4</td></tr>
+<tr>
+<td title='tests.ModalsTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.ModalsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ModalsTest@4550bb58</td></tr>
+<tr>
+<td title='tests.GesturesTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.GesturesTest</td>
+<td></td>
+<td>0</td>
+<td>tests.GesturesTest@6069db50</td></tr>
+<tr>
+<td title='tests.AdsTest.verifyAd()'><b>verifyAd</b><br>Test class: tests.AdsTest</td>
+<td></td>
+<td>4</td>
+<td>tests.AdsTest@9597028</td></tr>
+<tr>
+<td title='tests.PopupsTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.PopupsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.PopupsTest@1623b78d</td></tr>
+<tr>
+<td title='tests.WindowOperationsTest.verifyNewTabOpensAndCloses()'><b>verifyNewTabOpensAndCloses</b><br>Test class: tests.WindowOperationsTest</td>
+<td></td>
+<td>1</td>
+<td>tests.WindowOperationsTest@223191a6</td></tr>
+<tr>
+<td title='tests.TablesTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.TablesTest</td>
+<td></td>
+<td>0</td>
+<td>tests.TablesTest@4ec4f3a0</td></tr>
+<tr>
+<td title='tests.ModalsTest.verifySimpleModal()'><b>verifySimpleModal</b><br>Test class: tests.ModalsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ModalsTest@4550bb58</td></tr>
+<tr>
+<td title='tests.WindowOperationsTest.verifyWindowIsReplaced()'><b>verifyWindowIsReplaced</b><br>Test class: tests.WindowOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.WindowOperationsTest@223191a6</td></tr>
+<tr>
+<td title='tests.ModalsTest.verifyFormModal()'><b>verifyFormModal</b><br>Test class: tests.ModalsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ModalsTest@4550bb58</td></tr>
+<tr>
+<td title='tests.FormFieldsTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.FormFieldsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FormFieldsTest@5c33f1a9</td></tr>
+<tr>
+<td title='tests.HoverTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.HoverTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HoverTest@49139829</td></tr>
+<tr>
+<td title='tests.SliderTest.moveSliderBy50()'><b>moveSliderBy50</b><br>Test class: tests.SliderTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SliderTest@c8c12ac</td></tr>
+<tr>
+<td title='tests.TablesTest.verifyItemsPrices()'><b>verifyItemsPrices</b><br>Test class: tests.TablesTest</td>
+<td></td>
+<td>0</td>
+<td>tests.TablesTest@4ec4f3a0</td></tr>
+<tr>
+<td title='tests.WindowOperationsTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.WindowOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.WindowOperationsTest@223191a6</td></tr>
+<tr>
+<td title='tests.PopupsTest.testPromptPopup()'><b>testPromptPopup</b><br>Test class: tests.PopupsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.PopupsTest@1623b78d</td></tr>
+<tr>
+<td title='tests.HoverTest.verifyHoverWorks()'><b>verifyHoverWorks</b><br>Test class: tests.HoverTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HoverTest@49139829</td></tr>
+<tr>
+<td title='tests.PopupsTest.testConfirmPopup()'><b>testConfirmPopup</b><br>Test class: tests.PopupsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.PopupsTest@1623b78d</td></tr>
+<tr>
+<td title='tests.AdsTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.AdsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AdsTest@9597028</td></tr>
+<tr>
+<td title='tests.WindowOperationsTest.verifyNewWindowOpensAndCloses()'><b>verifyNewWindowOpensAndCloses</b><br>Test class: tests.WindowOperationsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.WindowOperationsTest@223191a6</td></tr>
+<tr>
+<td title='tests.DelaysTest.testDelaysPage()'><b>testDelaysPage</b><br>Test class: tests.DelaysTest</td>
+<td></td>
+<td>10</td>
+<td>tests.DelaysTest@7f0eb4b4</td></tr>
+<tr>
+<td title='tests.FormFieldsTest.fillFields()'><b>fillFields</b><br>Test class: tests.FormFieldsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.FormFieldsTest@5c33f1a9</td></tr>
+<tr>
+<td title='tests.CalendarsTest.verifyDateSelection()'><b>verifyDateSelection</b><br>Test class: tests.CalendarsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.CalendarsTest@6adbc9d</td></tr>
+<tr>
+<td title='tests.SliderTest.moveSliderByNegative1()'><b>moveSliderByNegative1</b><br>Test class: tests.SliderTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SliderTest@c8c12ac</td></tr>
+<tr>
+<td title='tests.GesturesTest.performGesturesActions()'><b>performGesturesActions</b><br>Test class: tests.GesturesTest</td>
+<td></td>
+<td>0</td>
+<td>tests.GesturesTest@6069db50</td></tr>
+<tr>
+<td title='tests.SliderTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.SliderTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SliderTest@c8c12ac</td></tr>
+<tr>
+<td title='tests.CalendarsTest.verifyHeaderText()'><b>verifyHeaderText</b><br>Test class: tests.CalendarsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.CalendarsTest@6adbc9d</td></tr>
+<tr>
+<td title='tests.SliderTest.moveSliderBy101()'><b>moveSliderBy101</b><br>Test class: tests.SliderTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SliderTest@c8c12ac</td></tr>
+</table><p>
+</body>
+</html>
