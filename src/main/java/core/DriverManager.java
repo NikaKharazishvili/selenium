@@ -2,6 +2,11 @@ package core;
 
 import org.openqa.selenium.WebDriver;
 
+/**
+ * Manages WebDriver instances using ThreadLocal to ensure thread-safe execution
+ * in parallel Selenium tests. Each thread gets its own WebDriver instance, 
+ * preventing conflicts during test setup and teardown.
+ */
 public class DriverManager {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
