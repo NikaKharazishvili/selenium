@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Suite">
+  <test name="Core Functional Tests">
+    <classes>
+      <class name="tests.BaseTest" />
+      <class name="tests.DelaysTest"/>
+      <class name="tests.FormFieldsTest"/>
+      <class name="tests.PopupsTest"/>
+      <class name="tests.SliderTest"/>
+      <class name="tests.CalendarsTest"/>
+      <class name="tests.ModalsTest"/>
+      <class name="tests.TablesTest"/>
+      <class name="tests.WindowOperationsTest"/>
+      <class name="tests.HoverTest"/>
+      <class name="tests.AdsTest"/>
+      <class name="tests.GesturesTest"/>
+    </classes>
+  </test>
+</suite>
