@@ -1,6 +1,6 @@
 ### Selenium Project
 
-- **Tools/Tech**: Java, **Selenium**, TestNG, OOP, POM
+- **Tools/Tech**: Java(OOP, POM), **Selenium**, TestNG, Maven
 - **Description**: Automated test cases for [Practice Automation](https://practice-automation.com/), demonstrating Selenium automation skills.
 - **Highlights**:
   - Clean POM structure for reusability
